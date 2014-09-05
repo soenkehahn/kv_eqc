@@ -46,7 +46,7 @@ lookup(K,{node,L,KN,VN,R}) ->
      K==KN ->
       {K,VN};
      K>KN ->
-      lookup(K,L)
+      lookup(K,R)
   end.
 
 %% State machine
